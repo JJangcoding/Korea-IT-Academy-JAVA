@@ -1,3 +1,3 @@
-# Korea-IT-Academy-JAVA 백업
+# Korea-IT-Academy-JAVA
 
 
