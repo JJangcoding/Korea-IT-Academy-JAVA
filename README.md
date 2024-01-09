@@ -807,12 +807,225 @@ ex6_generic 패키지:
 
 ## 2023년 1월 25일
 
+
+**ex1_list 패키지:**
+- **Ex1_ArrayList.java:**
+  - `ArrayList`을 사용하여 정수를 저장하고 관리하는 예시입니다. 특정 인덱스에 값을 추가, 수정, 삭제하는 등의 기능을 보여줍니다.
+
+- **Ex2_ArrayList.java:**
+  - `ArrayList`을 사용하여 문자열을 저장하고 관리하는 예시입니다. 특정 인덱스에 값을 추가, 수정, 삭제하는 등의 기능을 보여줍니다.
+
+- **Ex3_ArrayList.java:**
+  - `ArrayList`을 사용하여 중복된 문자열을 피하면서 사용자 입력을 받는 예시입니다. 중복 체크를 위해 `contains` 메서드를 활용합니다.
+
+- **Ex4_ArrayClass.java:**
+  - `ArrayList`을 다루는 클래스 `Ex4_ArrayClass`를 정의한 후, 이를 활용하는 예시입니다. `setArr` 메서드를 통해 `ArrayList`에 값이 추가되고, 이를 메인에서 출력합니다.
+
+- **Ex4_ArrayList.java:**
+  - `Ex4_ArrayClass`를 사용하여 `ArrayList`에 값을 추가하고, 메인에서 해당 `ArrayList`를 출력하는 예시입니다.
+
+**ex2_list 패키지:**
+- **User.java:**
+  - 사용자 정보를 담는 `User` 클래스입니다. 이름과 나이를 private 필드로 갖고 있으며, 각각의 Getter 및 Setter 메서드를 제공합니다.
+
+- **UserMain.java:**
+  - `User` 클래스를 사용하여 사용자의 이름과 나이를 입력받고, 중복된 이름을 체크하여 리스트에 추가하는 예시입니다.
+
+**ex3_io_file 패키지:**
+- **Ex1_File.java:**
+  - 파일 및 IO 개념에 대한 기본적인 내용을 다루는 예시입니다. 파일 객체를 생성하고, 해당 파일이 존재하면 파일의 크기를 출력합니다.
+
+- **Ex2_File.java:**
+  - 폴더 내의 파일 목록을 출력하는 예시입니다.
+
+- **Ex3_File.java:**
+  - 폴더가 존재하지 않으면 생성하는 예시입니다.
+
+- **Ex4_File.java:**
+  - 특정 폴더의 하위 목록 중 폴더만 출력하는 예시입니다.
+
+**work 패키지:**
+- **WordGame.java:**
+  - 스레드를 사용하여 일정 시간 간격으로 단어를 리스트에 추가하는 예시입니다.
+
+- **WordGameMain.java:**
+  - `WordGame` 스레드를 실행하고, 사용자에게 단어를 입력받아 리스트에서 제거하는 게임을 구현한 예시입니다.
+
 ## 2023년 1월 26일
+
+
+**ex1_file_input 패키지:**
+- **Ex1_FileInput.java:**
+  - `FileInputStream`을 사용하여 파일을 읽어오는 예시입니다. 파일이 존재하면 파일의 내용을 1바이트씩 읽어 화면에 출력합니다.
+
+- **Ex2_FileInput.java:**
+  - `FileInputStream`을 사용하여 파일을 읽어오는 예시입니다. 파일의 내용을 한 번에 읽어 `byte` 배열에 저장하고, 이를 `String`으로 변환하여 출력합니다.
+
+**ex2_input 패키지:**
+- **Ex1_FileInput.java:**
+  - `System.in.read()`를 사용하여 키보드 입력을 받는 예시입니다. 입력 받은 값을 `byte` 배열에 저장하고, 이를 `String`으로 변환하여 출력합니다.
+
+**ex3_buffered_input 패키지:**
+- **Ex1_BufferedInput.java:**
+  - `BufferedInputStream`을 사용하여 파일을 읽어오는 예시입니다. 파일의 내용을 한 번에 읽어 `byte` 배열에 저장하고, 이를 `String`으로 변환하여 출력합니다. `BufferedInputStream`을 사용하여 입출력 성능을 향상시킵니다.
+
+**util 패키지:**
+- **MyPath.java:**
+  - 상수 `PATH`를 정의한 인터페이스입니다. 파일 경로를 관리하는 데 사용됩니다.
 
 ## 2023년 1월 30일
 
+**ex1_output 패키지:**
+- **Ex1_output.java:**
+  - `System.out`을 사용하여 콘솔에 데이터를 출력하는 예시입니다. `PrintStream`을 통해 'A'를 출력하고, `byte` 배열을 사용하여 'B', 'C', 'D'를 출력합니다.
+
+- **Ex2_FileOutput.java:**
+  - `FileOutputStream`을 사용하여 파일에 데이터를 출력하는 예시입니다. 파일 경로에 "fileOutput예제.txt" 파일을 생성하고, 문자열을 바이트로 변환하여 파일에 기록합니다.
+
+- **Ex3_BufferedFileOutput.java:**
+  - `BufferedOutputStream`을 사용하여 파일에 데이터를 출력하는 예시입니다. "bos의 예제.txt" 파일에 "buffered스트림의 예제." 문자열을 기록하고, `flush()` 메서드로 버퍼의 내용을 물리적으로 기록합니다.
+
+**ex2_char_input 패키지:**
+- **Ex1_FileReader.java:**
+  - `FileReader`를 사용하여 파일을 읽어오는 예시입니다. "test.txt" 파일의 내용을 읽어와서 콘솔에 출력합니다.
+
+- **Ex2_BufferedReader.java:**
+  - `BufferedReader`를 사용하여 파일을 읽어오는 예시입니다. "test.txt" 파일의 내용을 한 줄씩 읽어와서 콘솔에 출력합니다.
+
+**ex3_char_output 패키지:**
+- **Ex1_FileWriter.java:**
+  - `FileWriter`를 사용하여 파일에 데이터를 출력하는 예시입니다. "fileWriter의 예제.txt" 파일에 문자열을 기록합니다.
+
+- **Ex2_BufferedWriter.java:**
+  - `BufferedWriter`를 사용하여 파일에 데이터를 출력하는 예시입니다. "bufferedWriter의 예제.txt" 파일에 문자열을 기록하고, `newLine()` 메서드로 새로운 줄을 추가합니다.
+
+**ex4_object_input 패키지:**
+- **ObjectInputMain.java:**
+  - `ObjectInputStream`을 사용하여 객체를 파일에서 읽어오는 예시입니다. "person.sav" 파일에서 `Person` 객체를 읽어와서 객체의 정보를 출력합니다.
+
+**ex5_object_output 패키지:**
+- **ObjectWriterMain.java:**
+  - `ObjectOutputStream`을 사용하여 객체를 파일에 저장하는 예시입니다. "person.sav" 파일에 `Person` 객체를 저장합니다.
+
+**ex6_base64 패키지:**
+- **Base64_main.java:**
+  - Java의 `Base64` 클래스를 사용하여 문자열을 암호화하고 복호화하는 예시입니다.
+
+**ex7_work 패키지:**
+- **ByteStreamWork.java:**
+  - `FileInputStream`을 사용하여 파일을 읽어오고, 회문수 여부를 판단하는 예시입니다.
+
+- **CharStreamWork.java:**
+  - `FileReader`를 사용하여 파일을 읽어오고, 대문자와 소문자의 갯수를 세는 예시입니다.
+
+**ex8_work 패키지:**
+- **GameLoad.java:**
+  - `ObjectInputStream`을 사용하여 게임 데이터를 파일에서 읽어오는 예시입니다.
+
+- **GameSave.java:**
+  - `ObjectOutputStream`을 사용하여 게임 데이터를 파일에 저장하는 예시입니다.
+
+- **Rsp.java:**
+  - 게임 결과를 저장하는 `Rsp` 클래스입니다. 이 클래스는 `Serializable`을 구현하여 객체를 직렬화할 수 있게 합니다.
+
+- **RspMain.java:**
+  - 가위바위보 게임을 구현한 메인 클래스입니다. 사용자와 컴퓨터 간의 게임을 진행하고, 결과를 저장하고 불러오는 기능이 구현되어 있습니다.
+
 ## 2023년 1월 31일
+
+1. **파일 입출력 (File I/O)**
+   - `Ex1_output`: `System.out`을 사용하여 콘솔에 데이터를 출력하는 예제 및 파일에 데이터를 출력하는 예제가 포함되어 있습니다.
+   - `Ex2_FileOutput`: `FileOutputStream`을 사용하여 파일에 데이터를 출력하는 예제입니다.
+   - `Ex3_BufferedFileOutput`: `BufferedOutputStream`을 사용하여 파일에 데이터를 출력하는 예제입니다.
+   - `Ex1_FileReader`: `FileReader`를 사용하여 파일에서 문자를 읽어오는 예제입니다.
+   - `Ex2_BufferedReader`: `BufferedReader`를 사용하여 파일에서 한 줄씩 읽어오는 예제입니다.
+   - `Ex1_FileWriter`: `FileWriter`를 사용하여 파일에 문자열을 쓰는 예제입니다.
+   - `Ex2_BufferedWriter`: `BufferedWriter`를 사용하여 파일에 문자열을 쓰는 예제입니다.
+
+2. **객체 직렬화 (Object Serialization)**
+   - `ObjectInputMain`: 객체를 파일에 저장하고 읽어오는 예제입니다.
+   - `ObjectWriterMain`: `ObjectOutputStream`을 사용하여 객체를 파일에 저장하는 예제입니다.
+   - `Person`: `Serializable`을 구현한 객체 클래스로, 객체 직렬화를 위한 예제입니다.
+
+3. **Base64 인코딩/디코딩**
+   - `Base64_main`: Java의 `Base64` 클래스를 사용하여 문자열을 인코딩하고 디코딩하는 예제입니다.
+
+4. **문제 해결 및 실습**
+   - `ByteStreamWork`: 파일에서 데이터를 읽어와 회문수인지 확인하는 예제입니다.
+   - `CharStreamWork`: 파일에서 대문자와 소문자의 개수를 세는 예제입니다.
+   - `GameSave` 및 `GameLoad`: 객체를 파일에 저장하고 불러오는 예제로, 가위바위보 게임의 결과를 저장합니다.
+   - `Rsp`, `RspMain`: 간단한 가위바위보 게임의 결과를 저장하고 불러오는 예제입니다.
+
+5. **네트워크 통신**
+   - `MyClient` 및 `MyServer`: 간단한 클라이언트-서버 통신 예제입니다. 클라이언트가 서버에 접속하면 서버에서 클라이언트의 IP 주소를 출력합니다.
+
+6. **윈도우 프레임 및 리스너**
+   - `Ex1_frame`, `MyFrame`, `MyFrameMain`: AWT를 사용하여 윈도우 프레임을 생성하는 예제입니다.
+   - `FrameMain`: AWT를 사용하여 윈도우 프레임을 생성하고, 윈도우 이벤트를 감지하는 예제입니다.
+   - `MyListener`, `ClosingListener`, `ListenerClass`, `ListenerMain`: 윈도우 리스너와 어댑터를 사용하여 윈도우 이벤트를 처리하는 예제입니다.
+
 
 ## 2023년 2월 1일
 
+### 1. `Ex1_ButtonTest` (버튼 테스트)
+- `Frame`에 "확인"과 "닫기" 버튼이 있는 간단한 프레임을 생성합니다.
+- 버튼 클릭 이벤트를 처리하기 위해 `ActionListener`를 사용하였습니다.
+
+### 2. `Ex1_Button` (버튼 이벤트 처리)
+- "버튼1", "버튼2", "버튼3" 세 개의 버튼을 만들어 각각의 버튼에 대한 클릭 이벤트를 처리합니다.
+- 버튼 이벤트를 처리하기 위해 `ActionListener`를 사용하였습니다.
+
+### 3. `Ex2_CheckBox` (체크박스 및 라디오버튼)
+- "1. 당신의 취미는 무엇입니까?"라는 질문과 각각 "영화", "독서", "운동"에 대한 체크박스를 만들어 선택 상태를 출력합니다.
+- "2. 당신의 성별은 무엇입니까?"라는 질문과 "남자"와 "여자"에 대한 라디오버튼을 만들어 선택된 항목을 출력합니다.
+
+### 4. `Ex1_Choice` (초이스)
+- 혈액형 선택을 위한 `Choice`를 생성하고 선택된 항목을 출력합니다.
+
+### 5. `Ex2_Choice` (초이스 이벤트 처리)
+- "월", "화", ..., "일"까지의 항목을 가진 `Choice`를 생성하고 항목이 선택되면 콘솔에 출력합니다.
+
+### 6. `Memo` (메모장 프로그램)
+- 기본적인 메모장 형태를 가진 프로그램입니다.
+- 상단에는 텍스트 필드와 "확인" 버튼이 있고, 중앙에는 텍스트 에어리어로 메모를 작성할 수 있습니다.
+- 하단에는 "저장"과 "닫기" 버튼이 있습니다.
+
+각 예제는 AWT를 활용하여 간단한 GUI를 생성하고, 사용자 입력 또는 버튼 클릭과 같은 이벤트를 처리하는 방법을 보여줍니다. 코드를 실행하면 각각의 창이 나타나며 예제에 따라 다양한 GUI 컴포넌트와 이벤트 처리가 이루어집니다.
+
 ## 2023년 2월 2일
+
+### ImageTest.java
+이 코드는 Java Swing을 사용하여 이미지를 화면에 표시하고, 버튼을 클릭하면 이미지가 변경되도록 하는 간단한 GUI 프로그램입니다.
+
+1. `ImageIcon`을 사용하여 이미지 파일을 로드합니다.
+2. `JLabel`을 생성하여 이미지를 표시합니다.
+3. `JButton`을 생성하고, 버튼을 클릭하면 이미지가 변경되도록 합니다.
+
+### ChatClient.java
+
+이 코드는 Java Swing을 사용하여 간단한 채팅 클라이언트 프로그램을 구현한 것입니다.
+
+1. `JFrame`을 활용하여 GUI를 생성합니다.
+2. 서버에 접속하기 위해 `Socket`을 사용합니다.
+3. 텍스트 에어리어, 텍스트 필드, 전송 버튼이 있는 간단한 채팅 창을 만듭니다.
+4. 서버로 메시지를 전송하는 기능을 구현하고, 메시지를 받아와서 텍스트 에어리어에 출력합니다.
+5. 클라이언트는 별도의 스레드(`Runnable` 구현)에서 서버로부터 메시지를 지속적으로 수신하도록 합니다.
+
+### ChatClientMain.java
+이 코드는 `ChatClient`를 실행하기 위한 메인 클래스입니다. 단순히 `ChatClient` 객체를 생성합니다.
+
+### ChatServer.java
+이 코드는 간단한 다중 채팅 서버를 구현한 것입니다. 
+
+1. `ServerSocket`을 사용하여 클라이언트의 연결을 기다립니다.
+2. 각 클라이언트에 대해 `CopyClient` 스레드를 생성하고 실행합니다.
+3. `CopyClient`는 클라이언트 간의 채팅을 관리하고, 새로운 클라이언트가 접속하면 서버에 알립니다.
+
+### ChatServerMain.java
+이 코드는 `ChatServer`를 실행하기 위한 메인 클래스입니다. 단순히 `ChatServer` 객체를 생성하고 실행합니다.
+
+### CopyClient.java
+이 코드는 서버에서 각 클라이언트를 별도의 스레드로 처리하기 위한 클래스입니다.
+
+1. 클라이언트로부터 메시지를 받아와서 서버에 전달합니다.
+2. 클라이언트가 종료되면 서버에서 해당 클라이언트를 리스트에서 제거하고, 나머지 클라이언트에게 퇴장 메시지를 전송합니다.
